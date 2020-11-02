@@ -42,6 +42,9 @@ exports.eggAliyunPopCore = {
 
 ## 单元测试
 
+* 测试内容
+    * test
+
 <!-- 描述如何在单元测试中使用此插件，例如 schedule 如何触发。无则省略。-->
 
 ## 提问交流
