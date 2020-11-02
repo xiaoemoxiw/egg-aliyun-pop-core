@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.7"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -35,6 +37,9 @@
   },
   "files": [
     "config",
+    "agent.js",
+    "lib",
+    "app.js",
     "test{{name}}.test.js"
   ],
   "ci": {

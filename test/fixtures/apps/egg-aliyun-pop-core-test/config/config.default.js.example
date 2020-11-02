@@ -1,0 +1,23 @@
+'use strict';
+
+exports.keys = '123456';
+
+exports.aliyunApiGateway = {
+  baseUrl: 'xxxx',
+  appId: 'xxxx',
+  client: {
+    appKey: 'xxx',
+    appSecret: 'xxxx',
+    stage: 'RELEASE',
+    verbose: true,
+  },
+};
+
+exports.aliyunPopCore = {
+  client: {
+    accessKeyId: 'xxxx',
+    accessKeySecret: 'xxxx',
+    endpoint: 'https://apigateway.cn-shenzhen.aliyuncs.com',
+    apiVersion: '2016-07-14',
+  },
+};
