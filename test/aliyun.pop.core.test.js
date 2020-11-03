@@ -37,7 +37,6 @@ describe('test/egg-aliyun-pop-core.test.js', () => {
     );
 
 
-
     assert(aliyunPopCoreClient);
 
   });
